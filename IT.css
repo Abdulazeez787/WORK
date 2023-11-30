@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jumbotron{
+    background-image: url(images\ \(8\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    font-weight: bold;
+    padding: 12%;
+}
+.we{
+    margin-left: 5%;
+}
+.stage button{
+    background-color: aqua;
+    padding: 0.4;
+    border: none;
+    width: 10%;
+    height: 6vh;
+}
+.sta{
+    background-color:transparent;
+    padding: 0.4;
+    border: none;
+    width: 10%;
+    height: 6vh;
+}
+.stage2{
+    background-color: aqua;
+    color: black;
+}
+.stage2 button{
+    background-color: black;
+    color: white;
+    padding:0.5%;
+    border: none;
+}
+.stage3{
+    margin-left:5%;
+}
+/* @media only screen and (max-width:990px) {
+    body{
+        width: 100%;
+        font-size: xx-large;
+    }
+    .container{
+        flex-direction: column;
+    }
+} */
